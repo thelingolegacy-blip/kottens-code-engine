@@ -1,0 +1,9 @@
+name = "kottons-code-engine"
+main = "workers/index.ts"
+compatibility_date = "2026-08-23"
+
+[vars]
+KOTTONS_ENV = "production"
+CONTENT_API_VERSION = "v1"
+
+# Secrets must be provisioned in the deployment platform; never commit live keys.
